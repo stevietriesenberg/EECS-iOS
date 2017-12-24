@@ -12,6 +12,22 @@
 		FB4959E81FEC24B30095423A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4959E61FEC24B30095423A /* Main.storyboard */; };
 		FB4959EA1FEC24B30095423A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4959E91FEC24B30095423A /* Assets.xcassets */; };
 		FB4959ED1FEC24B30095423A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4959EB1FEC24B30095423A /* LaunchScreen.storyboard */; };
+		FB4959F51FEC33640095423A /* dept.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB4959F41FEC33640095423A /* dept.txt */; };
+		FB495A081FEC3B620095423A /* BIO.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB4959F91FEC3B620095423A /* BIO.txt */; };
+		FB495A091FEC3B620095423A /* BME.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB4959FA1FEC3B620095423A /* BME.txt */; };
+		FB495A0A1FEC3B620095423A /* CEE.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB4959FB1FEC3B620095423A /* CEE.txt */; };
+		FB495A0B1FEC3B620095423A /* CHE.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB4959FC1FEC3B620095423A /* CHE.txt */; };
+		FB495A0C1FEC3B620095423A /* CHEM.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB4959FD1FEC3B620095423A /* CHEM.txt */; };
+		FB495A0D1FEC3B620095423A /* EECS.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB4959FE1FEC3B620095423A /* EECS.txt */; };
+		FB495A0E1FEC3B620095423A /* ENGR.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB4959FF1FEC3B620095423A /* ENGR.txt */; };
+		FB495A0F1FEC3B620095423A /* HUMANTIES.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB495A001FEC3B620095423A /* HUMANTIES.txt */; };
+		FB495A101FEC3B620095423A /* IOE.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB495A011FEC3B620095423A /* IOE.txt */; };
+		FB495A111FEC3B620095423A /* MATH.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB495A021FEC3B620095423A /* MATH.txt */; };
+		FB495A121FEC3B620095423A /* ME.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB495A031FEC3B620095423A /* ME.txt */; };
+		FB495A131FEC3B620095423A /* MSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB495A041FEC3B620095423A /* MSE.txt */; };
+		FB495A141FEC3B620095423A /* NAME.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB495A051FEC3B620095423A /* NAME.txt */; };
+		FB495A151FEC3B620095423A /* PHYS.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB495A061FEC3B620095423A /* PHYS.txt */; };
+		FB495A161FEC3B620095423A /* STATS.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB495A071FEC3B620095423A /* STATS.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +38,22 @@
 		FB4959E91FEC24B30095423A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB4959EC1FEC24B30095423A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB4959EE1FEC24B30095423A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4959F41FEC33640095423A /* dept.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dept.txt; sourceTree = "<group>"; };
+		FB4959F91FEC3B620095423A /* BIO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BIO.txt; sourceTree = "<group>"; };
+		FB4959FA1FEC3B620095423A /* BME.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BME.txt; sourceTree = "<group>"; };
+		FB4959FB1FEC3B620095423A /* CEE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CEE.txt; sourceTree = "<group>"; };
+		FB4959FC1FEC3B620095423A /* CHE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHE.txt; sourceTree = "<group>"; };
+		FB4959FD1FEC3B620095423A /* CHEM.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHEM.txt; sourceTree = "<group>"; };
+		FB4959FE1FEC3B620095423A /* EECS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EECS.txt; sourceTree = "<group>"; };
+		FB4959FF1FEC3B620095423A /* ENGR.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ENGR.txt; sourceTree = "<group>"; };
+		FB495A001FEC3B620095423A /* HUMANTIES.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HUMANTIES.txt; sourceTree = "<group>"; };
+		FB495A011FEC3B620095423A /* IOE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IOE.txt; sourceTree = "<group>"; };
+		FB495A021FEC3B620095423A /* MATH.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MATH.txt; sourceTree = "<group>"; };
+		FB495A031FEC3B620095423A /* ME.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ME.txt; sourceTree = "<group>"; };
+		FB495A041FEC3B620095423A /* MSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MSE.txt; sourceTree = "<group>"; };
+		FB495A051FEC3B620095423A /* NAME.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NAME.txt; sourceTree = "<group>"; };
+		FB495A061FEC3B620095423A /* PHYS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PHYS.txt; sourceTree = "<group>"; };
+		FB495A071FEC3B620095423A /* STATS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = STATS.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +92,32 @@
 				FB4959E91FEC24B30095423A /* Assets.xcassets */,
 				FB4959EB1FEC24B30095423A /* LaunchScreen.storyboard */,
 				FB4959EE1FEC24B30095423A /* Info.plist */,
+				FB4959F61FEC3A800095423A /* txt_files */,
 			);
 			path = "EECS-iOS";
+			sourceTree = "<group>";
+		};
+		FB4959F61FEC3A800095423A /* txt_files */ = {
+			isa = PBXGroup;
+			children = (
+				FB4959F41FEC33640095423A /* dept.txt */,
+				FB4959F91FEC3B620095423A /* BIO.txt */,
+				FB4959FA1FEC3B620095423A /* BME.txt */,
+				FB4959FB1FEC3B620095423A /* CEE.txt */,
+				FB4959FC1FEC3B620095423A /* CHE.txt */,
+				FB4959FD1FEC3B620095423A /* CHEM.txt */,
+				FB4959FE1FEC3B620095423A /* EECS.txt */,
+				FB4959FF1FEC3B620095423A /* ENGR.txt */,
+				FB495A001FEC3B620095423A /* HUMANTIES.txt */,
+				FB495A011FEC3B620095423A /* IOE.txt */,
+				FB495A021FEC3B620095423A /* MATH.txt */,
+				FB495A031FEC3B620095423A /* ME.txt */,
+				FB495A041FEC3B620095423A /* MSE.txt */,
+				FB495A051FEC3B620095423A /* NAME.txt */,
+				FB495A061FEC3B620095423A /* PHYS.txt */,
+				FB495A071FEC3B620095423A /* STATS.txt */,
+			);
+			name = txt_files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +180,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB495A141FEC3B620095423A /* NAME.txt in Resources */,
+				FB495A0D1FEC3B620095423A /* EECS.txt in Resources */,
 				FB4959ED1FEC24B30095423A /* LaunchScreen.storyboard in Resources */,
+				FB495A111FEC3B620095423A /* MATH.txt in Resources */,
 				FB4959EA1FEC24B30095423A /* Assets.xcassets in Resources */,
 				FB4959E81FEC24B30095423A /* Main.storyboard in Resources */,
+				FB495A121FEC3B620095423A /* ME.txt in Resources */,
+				FB495A091FEC3B620095423A /* BME.txt in Resources */,
+				FB495A0A1FEC3B620095423A /* CEE.txt in Resources */,
+				FB495A0C1FEC3B620095423A /* CHEM.txt in Resources */,
+				FB495A0B1FEC3B620095423A /* CHE.txt in Resources */,
+				FB495A131FEC3B620095423A /* MSE.txt in Resources */,
+				FB495A161FEC3B620095423A /* STATS.txt in Resources */,
+				FB495A081FEC3B620095423A /* BIO.txt in Resources */,
+				FB495A0F1FEC3B620095423A /* HUMANTIES.txt in Resources */,
+				FB495A151FEC3B620095423A /* PHYS.txt in Resources */,
+				FB4959F51FEC33640095423A /* dept.txt in Resources */,
+				FB495A0E1FEC3B620095423A /* ENGR.txt in Resources */,
+				FB495A101FEC3B620095423A /* IOE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
