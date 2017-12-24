@@ -10,8 +10,6 @@ import UIKit
 import Darwin
 
 class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
-
-    //MARK: properties
     
     @IBOutlet weak var deptList: UIPickerView!
     var deptData: [String] = [String]()
@@ -40,10 +38,10 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         gradeData = ["A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D+", "D", "D-", "E", "PASS"]
         
         // open dept listing file, add to deptData
-        let fileURLProject = Bundle.main.path(forResource: "dept", ofType: "txt")
+        let fileURLDept = Bundle.main.path(forResource: "dept", ofType: "txt")
         var deptText = ""
         do {
-            deptText = try String(contentsOfFile: fileURLProject!, encoding: String.Encoding.utf8)
+            deptText = try String(contentsOfFile: fileURLDept!, encoding: String.Encoding.utf8)
         }
         catch {
             print("dept file error")
@@ -86,25 +84,51 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         if (pickerView == deptList) {
             return deptData[row]
         }
+        if (pickerView == classList) {
+            if (classData.count > 0) {
+                return classData[row]
+            }
+        }
         return gradeData[row]
     }
     
     
+    // Catpure the picker view selection
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        if (pickerView == deptList) {
+            // get selected class code
+            let selected = deptData[row]
+            classData.removeAll()
+            
+            // open corresopnding file
+            let fileURLClass = Bundle.main.path(forResource: selected, ofType: "txt")
+            var deptText = ""
+            
+            // get contents
+            do {
+                deptText = try String(contentsOfFile: fileURLClass!, encoding: String.Encoding.utf8)
+            }
+            catch {
+                print("class file error")
+            }
+            
+            // split contents
+            let classRawData = deptText.components(separatedBy: "\n")
+            
+            for object in classRawData {
+                if (object != "") {
+                    let rawArr = object.characters.split(separator: " ").map(String.init)
+                    classData.append(rawArr[0]);
+                }
+            }
+            
+            
+            
+            
+        } // if()
+    } // pickerview()
     
     
-    
-    //MARK: actions
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
 
 }
 

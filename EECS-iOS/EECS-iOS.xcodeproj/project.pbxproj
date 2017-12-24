@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB42F4EB1FF0249A0069A756 /* AERO.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB42F4EA1FF0249A0069A756 /* AERO.txt */; };
 		FB4959E31FEC24B30095423A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4959E21FEC24B30095423A /* AppDelegate.swift */; };
 		FB4959E51FEC24B30095423A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4959E41FEC24B30095423A /* ViewController.swift */; };
 		FB4959E81FEC24B30095423A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4959E61FEC24B30095423A /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB42F4EA1FF0249A0069A756 /* AERO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AERO.txt; sourceTree = "<group>"; };
 		FB4959DF1FEC24B30095423A /* EECS-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EECS-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4959E21FEC24B30095423A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB4959E41FEC24B30095423A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				FB4959F41FEC33640095423A /* dept.txt */,
+				FB42F4EA1FF0249A0069A756 /* AERO.txt */,
 				FB4959F91FEC3B620095423A /* BIO.txt */,
 				FB4959FA1FEC3B620095423A /* BME.txt */,
 				FB4959FB1FEC3B620095423A /* CEE.txt */,
@@ -185,6 +188,7 @@
 				FB4959ED1FEC24B30095423A /* LaunchScreen.storyboard in Resources */,
 				FB495A111FEC3B620095423A /* MATH.txt in Resources */,
 				FB4959EA1FEC24B30095423A /* Assets.xcassets in Resources */,
+				FB42F4EB1FF0249A0069A756 /* AERO.txt in Resources */,
 				FB4959E81FEC24B30095423A /* Main.storyboard in Resources */,
 				FB495A121FEC3B620095423A /* ME.txt in Resources */,
 				FB495A091FEC3B620095423A /* BME.txt in Resources */,
@@ -374,6 +378,7 @@
 				FB4959F31FEC24B30095423A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
