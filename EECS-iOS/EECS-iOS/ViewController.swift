@@ -122,7 +122,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
                 }
             }
             
-            
+            self.classList.dataSource = self;
+            self.classList.delegate = self;
             
             
         } // if()
