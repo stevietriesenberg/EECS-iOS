@@ -13,14 +13,25 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     @IBOutlet weak var deptList: UIPickerView!
     var deptData: [String] = [String]()
+    var dept = ""
 
 
     @IBOutlet weak var classList: UIPickerView!
     var classData: [String] = [String]()
+    var code = ""
  
     
     @IBOutlet weak var gradeList: UIPickerView!
     var gradeData: [String] = [String]()
+    var grade = ""
+    
+    
+    
+    
+    
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -122,11 +133,19 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
                 }
             }
             
+            // update deptList values
             self.classList.dataSource = self;
             self.classList.delegate = self;
             
-            
-        } // if()
+            // set department for "add class" button
+            dept = selected
+        } // if (deptList)
+        if (pickerView == classList) {
+            code = classData[row]
+        } // if (classList)
+        if (pickerView == gradeList) {
+            grade = gradeData[row]
+        } // if (gradeList)
     } // pickerview()
     
     
