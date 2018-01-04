@@ -25,7 +25,18 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     var gradeData: [String] = [String]()
     var grade = ""
     
-    
+    // action for pressed button
+    @IBAction func addClass(_ sender: AnyObject) {
+        
+        // create class object with input from UIPickerViews
+        // add to list of all classes
+        // update GPA
+        // update credit hours
+        
+        
+        
+        
+    }
     
     
     

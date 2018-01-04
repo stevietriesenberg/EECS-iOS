@@ -48,6 +48,9 @@
                                 <frame key="frameInset" minX="141" minY="228" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add Class"/>
+                                <connections>
+                                    <action selector="addClass:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z8t-Bo-v0K"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GPA:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V4F-Wb-2f7">
                                 <frame key="frameInset" minX="105" minY="375" width="38" height="21"/>
